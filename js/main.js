@@ -42,6 +42,9 @@
 			$dannModal = $("#dannModal"), //dann's
 			$dannBtn = $("#dannBtn"),
 
+			$kaiModal = $("#kaiModal"), //kai's
+			$kaiBtn = $("#kaiBtn"),
+
 			$span = $(".close");
 
 		// Modal for instructor bios
@@ -70,6 +73,13 @@
     			$dannModal.css("visibility","visible");
     			$dannModal.css("opacity","1");
 			});
+
+			$kaiBtn.click(function(){
+				$kaiModal.css("visibility","visible");
+				$kaiModal.css("opacity","1");
+			});
+
+			
 
 			$modals.mousedown(function(e) {
 				var clicked = $(e.target);  //get the element clicked
