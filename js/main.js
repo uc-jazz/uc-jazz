@@ -45,6 +45,9 @@
 			$kaiModal = $("#kaiModal"), //kai's
 			$kaiBtn = $("#kaiBtn"),
 
+			$joeModal = $("#joeModal"), //joe's
+			$joeBtn = $("#joeBtn"),
+
 			$span = $(".close");
 
 		// Modal for instructor bios
@@ -77,6 +80,11 @@
 			$kaiBtn.click(function(){
 				$kaiModal.css("visibility","visible");
 				$kaiModal.css("opacity","1");
+			});
+
+			$joeBtn.click(function(){
+				$joeModal.css("visibility","visible");
+				$joeModal.css("opacity","1");
 			});
 
 			
